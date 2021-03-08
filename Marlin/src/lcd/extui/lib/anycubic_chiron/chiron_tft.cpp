@@ -91,7 +91,7 @@ namespace Anycubic {
 
     // Startup tunes are defined in Tunes.h
     //PlayTune(BEEPER_PIN, Anycubic_PowerOn, 1);
-    PlayTune(BEEPER_PIN, GB_PowerOn, 1);
+    //PlayTune(BEEPER_PIN, GB_PowerOn, 1);
     #if ACDEBUGLEVEL
       SERIAL_ECHOLNPAIR("AC Debug Level ", ACDEBUGLEVEL);
     #endif
